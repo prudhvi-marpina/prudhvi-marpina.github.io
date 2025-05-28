@@ -1,3 +1,7 @@
+/* Optional: Google Fonts Import (Add this at the very top of your style.css file) */
+/* If you prefer linking fonts directly in HTML, you can remove this. */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap'); */
+
 /* General Resets & Global Styles */
 :root {
     --primary-color: #007bff; /* A vibrant blue for primary actions/highlights */
@@ -464,6 +468,3 @@ footer {
         height: 120px;
     }
 }
-
-/* Optional: Google Fonts Import (Add this at the very top of your style.css file) */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
