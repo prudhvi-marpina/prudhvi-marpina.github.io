@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prudhvi Marpina | Data & GenAI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Prudhvi Marpina</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <img src="images/profile.jpg" alt="Prudhvi Marpina's Profile Picture" class="profile-pic">
+                <h1>Hello, I'm Prudhvi Marpina!</h1>
+                <p>Exploring the intersection of Data Analysis and Generative AI.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-me">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate Data Analyst with a keen interest in leveraging cutting-edge Generative AI technologies to derive actionable insights from complex datasets. My journey involves transforming raw data into compelling stories and interactive solutions. I thrive on solving challenging problems and continuously learning new tools and methodologies in the ever-evolving fields of data and AI.
+            </p>
+            <p>
+                My expertise spans data cleaning, analysis, visualization, and building intelligent systems that simplify data interaction. I am particularly excited about the potential of LLMs to revolutionize Business Intelligence, making data accessible to everyone.
+            </p>
+            </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Data</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL (Pandasql, SQLite)</li>
+                        <li>Pandas, NumPy</li>
+                        <li>Data Cleaning & Preprocessing</li>
+                        <li>Statistical Analysis</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Generative AI & LLMs</h3>
+                    <ul>
+                        <li>LangChain</li>
+                        <li>Ollama (Mistral, Phi-2)</li>
+                        <li>Prompt Engineering</li>
+                        <li>AI Agents</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Visualization & BI</h3>
+                    <ul>
+                        <li>Streamlit</li>
+                        <li>Plotly, Matplotlib, Altair</li>
+                        <li>Conversational BI</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Concepts</h3>
+                    <ul>
+                        <li>Git, GitHub</li>
+                        <li>Docker</li>
+                        <li>System Architecture</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+
+            <div class="project-card">
+                <img src="images/agentic_bi_project_screenshot.png" alt="Agentic BI Screenshot">
+                <h3>Agentic BI: Conversational Data Explorer</h3>
+                <p>
+                    A conversational business intelligence system that allows users to interact with their data using plain English. It automates SQL generation, chart creation, and insight summarization using LLMs and AI agents.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/prudhvi-marpina/agentic_bi_project" target="_blank" class="project-btn">GitHub Repo</a>
+                    </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>
+                    A short, compelling description of your second project. What problem does it solve? What technologies did you use?
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/prudhvi-marpina/your-other-project" target="_blank" class="project-btn">GitHub Repo</a>
+                    </div>
+            </div>
+
+            </section>
+
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new projects, interesting ideas, or opportunities.</p>
+            <div class="contact-links">
+                <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">linkedin.com/in/prudhvi-marpina</a></p>
+                <p>GitHub: <a href="https://github.com/prudhvi-marpina" target="_blank">github.com/prudhvi-marpina</a></p>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Prudhvi Marpina. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Update current year in footer dynamically
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
